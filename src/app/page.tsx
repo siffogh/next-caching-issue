@@ -1,4 +1,5 @@
 export const runtime = 'edge';
+//
 
 export default async function Home() {
   const data = await fetch('https://hub.dummyapis.com/delay?seconds=5', {
